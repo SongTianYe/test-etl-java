@@ -1,0 +1,6 @@
+delimiter: \t
+hbase:
+  zookeeper:
+    quorum: localhost
+hdfs:
+  outPutTempDir: hdfs://localhost:9000/import/temp/

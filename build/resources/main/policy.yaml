@@ -1,0 +1,41 @@
+rowKey:
+  indexInRows:
+    - 0
+    - 1
+  #  connectStr: _
+  className: com.sty.transfor.Converter
+  methodName: testCreateRowKey
+
+mapping:
+  - name: area
+    indexInRow: 0
+    columnFamily: cf
+  #    className: com/AAA.java
+  #    methodName: aaa
+
+  - name: vin
+    indexInRow: 1
+    columnFamily: cf
+
+#  - name: vin
+#    indexInRow: 2
+#    columnFamily: cf
+#
+#  - name: insurance_company
+#    indexInRow: 4
+#    columnFamily: cf
+
+# ...
+
+
+
+
+
+
+
+
+
+
+
+
+
